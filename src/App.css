@@ -1,13 +1,15 @@
+@import "__normalize.css";
+
 .App {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
-.App-header {
+.App--header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,4 +19,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.card{
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  border: 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  cursor: grab;
+}
+
+
 
